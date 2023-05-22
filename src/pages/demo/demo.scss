@@ -1,0 +1,43 @@
+@import "../../SASS/reset";
+@import "../../SASS/variables";
+@import "../../SASS/mixins";
+
+.container-demo {
+  width: 100%;
+  max-width: 1480px;
+  margin: 2rem auto 0 auto;
+  padding: 0 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+
+.btns-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    button {
+        padding: 1rem 1rem;
+      
+        border-radius: 5px;
+        background: $primary;
+        color: #fff;
+        min-width: 250px;
+        font-size: 0.9rem;
+        margin: 1rem 0rem;
+        font-weight: 600;
+        cursor: pointer;
+        text-align: center;
+        text-transform: uppercase;
+        @include flexMid;
+        transition: all 0.5s ease-out;
+        &:hover {
+          transform: scale(0.98);
+          box-shadow: $shadow;
+      
+          color: whitesmoke;
+        }
+      }
+}

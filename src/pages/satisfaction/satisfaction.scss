@@ -1,0 +1,30 @@
+@import '../../SASS/reset';
+@import '../../SASS/variables';
+@import '../../SASS/mixins';
+
+.satisfaction-container {
+  width: 100%;
+  max-width: 1480px;
+  margin: 15rem auto 0 auto;
+  padding: 0 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.icone-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  button {
+    height: 10rem;
+    width: 10rem;
+    margin: 0 1rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  &:hover{
+    transform: scale(0.98);
+  }
+  }
+}

@@ -1,0 +1,65 @@
+@import "../../SASS/reset";
+@import "../../SASS/variables";
+@import "../../SASS/mixins";
+
+.home-content-container {
+  height: 100%;
+  width: 100%;
+ 
+  margin: 2rem auto 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+
+}
+
+.home-content-container_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+
+}
+
+.home-content-container_btn-container {
+  display: flex;
+  justify-content: center  ;
+  align-items: center;
+  width: 900px;
+  margin-top: 3rem;
+
+
+  button {
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    background: $primary;
+    color: #fff;
+    min-width: 250px;
+    font-size: 0.9rem;
+    margin: 0 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    @include flexMid;
+    transition: all 0.5s ease-out;
+    &:hover {
+      transform: scale(0.98);
+      box-shadow: $shadow;
+  
+      color: whitesmoke;
+    }
+  }
+  .btn-danger {
+    background-color: red;
+  }
+}

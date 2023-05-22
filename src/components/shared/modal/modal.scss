@@ -1,0 +1,64 @@
+.btn-close-modal{
+
+color: red;
+cursor: pointer;
+font-weight: bolder;
+font-size: 1.8rem;
+right: 1rem;
+top: 0.5rem;
+position: absolute;
+
+}
+
+.overlay {
+    position: absolute;
+    top: -40%;
+    left: 0;
+
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.779);
+}
+
+
+.modal{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-20%, -10%);
+    background-color: #fff;
+    padding: 4rem 2.8rem;
+    max-width: 60rem;
+    min-width: 30rem;
+    z-index: 999999;
+    
+    border-radius: 5px;
+}
+
+.checkbox-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 3rem;
+    font-weight: Bolder;
+    margin: 1rem 0 2rem 0;
+
+    .text-checkbox{
+        margin-left: 1rem;
+    }
+}
+
+.checkbok-device{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .mail-input {
+        padding: 0.5rem;
+        width: 80%;
+        margin: 1rem 0;
+    
+    }
+}
+

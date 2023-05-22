@@ -1,0 +1,13 @@
+.hero {
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 50vh;
+  width: 100%;
+}
+.hero img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=hero.css.map */

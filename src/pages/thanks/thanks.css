@@ -1,0 +1,16 @@
+.thanks-container {
+  width: 100%;
+  max-width: 1480px;
+  margin: 15rem auto 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container-img {
+  height: 10rem;
+  width: 10rem;
+}/*# sourceMappingURL=thanks.css.map */

@@ -1,0 +1,33 @@
+
+@import "../../SASS/reset";
+@import "../../SASS/variables";
+@import "../../SASS/mixins";
+
+
+.image-container{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+z-index: -1;
+
+background-color: black;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        opacity: 0.4;
+    }
+
+}
+
+.txt {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20rem;
+    padding: 5rem;
+}

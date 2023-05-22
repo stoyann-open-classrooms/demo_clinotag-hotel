@@ -1,0 +1,24 @@
+.navbar {
+  background-color: rgba(153, 170, 213, 0.7568627451);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  padding: 1.3rem 1rem;
+  font-weight: 600;
+}
+.navbar .navbar-logo-container {
+  height: 5rem;
+}
+.navbar .navbar-logo-container img {
+  height: 100%;
+}
+.navbar .navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .navbar-list li {
+  margin: 1rem 2rem;
+  cursor: pointer;
+}/*# sourceMappingURL=header.css.map */
